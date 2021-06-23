@@ -3,8 +3,31 @@
   <head>
     <title>{{title}}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+    </head>
   <body>
+    <div class="jumbotron text-center">
+      <h1>{{title}}</h1>
+      <p>A programming student with an eye for quality 
+          and a knack for creating snappy pages</p>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Portfolio</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home &nbsp</a></li>
+        <li><a href="/About">About &nbsp</a></li>
+        <li><a href="/Projects">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
     {{{body}}}
+    <!-- Opt 1 -->
+    <script src='c/javascripts/bootstrap.min.js'></script>
+    <!-- Op2 -->
+    <!--<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js'></script>-->
   </body>
 </html>
