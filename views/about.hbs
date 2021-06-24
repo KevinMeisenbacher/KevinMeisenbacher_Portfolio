@@ -1,20 +1,13 @@
+<br/>
 <div class='desc'>
-  <h1>{{title}}</h1>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
-  <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
-  <img src='/images/tree.jpg'>
-  <p style="text-align: center">Throughout college, I have worked on several projects to hone my skills and even learn new ones.
-    I can do software, front-end, back-end, databases and even some mainframe programming. Front-end is what I have the most 
-    experience with, but I am able to fulfill many roles on a project.
-  </p>
-</div>
-<ul>
-  <h4>Skills</h4>
-    {{#each skillSets}}
-      <li>
-        {{#each this.tools}}
-          {{{this.name}}}
+  <div class='about-bg'>
+    <h4>Skills</h4>
+    <ul>
+        {{#each tools}}
+          <li>
+            {{{this.name}}}
+          </li>
         {{/each}}
-      </li>
-    {{/each}}
-</ul>
+    </ul>
+  </div>
+</div>
