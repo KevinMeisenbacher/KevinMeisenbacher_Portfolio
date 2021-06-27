@@ -17,15 +17,24 @@ img {
   margin: auto;
 }
 
-.desc {
+.footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 70%;
+  justify-content: space-between;
+  height: 200px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  background-color: #464649;
 }
 
+/* For my GitHub and LinkedIn buttons */
+.links {
+display: flex;
+flex-direction: row;
+margin-left: 8px;
+}
+
+/* Div for front page */
 .portfolio-bg {
   display: flex;
   flex-direction: column;
@@ -36,6 +45,17 @@ img {
   background-color: #9dc2ff;
 }
 
+/* Outer Div for About page */
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+}
+
+/* Inner Div for About page */
 .about-bg {
   display: flex;
   flex-direction: column;
@@ -43,7 +63,13 @@ img {
   background-color: #9dc2ff;
 }
 
-#footer {
-  padding-top: 16px;
-  padding-bottom: 200px;
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#projectImg {
+  width: 300px;
 }
