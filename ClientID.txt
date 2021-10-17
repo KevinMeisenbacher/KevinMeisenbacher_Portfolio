@@ -1,0 +1,2 @@
+ClientID: 221978936884-mpok2eag1s38dioaqlem9k7194rg1824.apps.googleusercontent.com
+ClientSecret: wMGiE1A_rc4Dx_029mZUxvYN

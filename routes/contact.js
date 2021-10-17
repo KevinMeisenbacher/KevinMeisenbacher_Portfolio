@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET contact page. */
 router.get('/', function(req, res, next) {
-    res.render('contact', {title: 'Contact'});
+    res.render('contact', {
+        name: "Kevin Meisenbacher",
+        email: "kevinmeisenbacher@gmail.com",
+        phonenumber: "(705)607-9097"
+    });
 });
 
 module.exports = router;
