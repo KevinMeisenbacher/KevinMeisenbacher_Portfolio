@@ -17,6 +17,10 @@ img {
   margin: auto;
 }
 
+table {
+  text-align: center;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -67,7 +71,7 @@ margin-left: 8px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #projectImg {
